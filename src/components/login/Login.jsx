@@ -5,7 +5,7 @@ const Login = () => {
   return (
     <div className="wrapper">
       <h1>Hello Again!</h1><br></br>
-      <p>Welcome back to SynthoMind</p>
+      <p className="p1">Welcome back to SynthoMind</p>
       <form>
         <input type="text" placeholder="Username" />
         <input type="password" placeholder="Password" />

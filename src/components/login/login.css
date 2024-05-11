@@ -1,10 +1,9 @@
-*{
+ *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
-body{
+ body{
   background: #dfe9f5;
 }
 .wrapper{
@@ -19,11 +18,11 @@ body{
 h1{
   font-size: 2rem;
   color: #07001f;
-}
-p{
+} 
+.p1{
   margin-bottom: 1.7rem;
 }
-form input{
+ form input{
   width: 85%;
   outline: none;
   border: none;
@@ -59,4 +58,4 @@ button:hover{
 }
 a:hover{
   text-decoration: underline;
-}
+} 

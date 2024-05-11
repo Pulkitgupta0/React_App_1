@@ -5,7 +5,7 @@ const Signup = () => {
   return (
     <div className="wrapper">
       <h1>Welcome</h1><br/>
-      <p>Join our community</p>
+      <p className="p2">Join our community</p>
       <form>
         <input type="text" placeholder="Username" />
         <input type="tel" placeholder="Phone no" />

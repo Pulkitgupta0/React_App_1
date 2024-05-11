@@ -1,6 +1,7 @@
 import React from 'react';
 import gpt3Logo from '../../assets/logo.png';
 import './footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => (
   <div className="gpt3__footer section__padding">
@@ -9,7 +10,7 @@ const Footer = () => (
     </div>
 
     <div className="gpt3__footer-btn">
-      <p>Request Early Access</p>
+     <Link to="/signup"> <p>Request Early Access</p></Link>
     </div>
 
     <div className="gpt3__footer-links">
