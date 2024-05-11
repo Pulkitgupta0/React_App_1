@@ -1,24 +1,20 @@
-import React from 'react';
-import { Article,Brand,CTA, Navbar } from './components';
-import { Features,Blog,Possibility,WhatGPT3,Header,Footer } from './containers';
-import './App.css';
+import React from "react";
+// import { Article, Brand, CTA, Navbar, Signup } from "./components";
+import Signup from "./components/signup/Signup";
+import Login from './components/login/Login';
+import Home from './components/Home';
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
 const App = () => {
   return (
-    <div className='App'>
-      <div className='gradient__bg'>
-        <Navbar/>
-        <Header/>
-      </div>
-      <Brand/>
-      <WhatGPT3/>
-      <Features/>
-      <Possibility/>
-      <CTA/>
-      <Blog/>
-      <Footer/>
-      
-    </div>
-  )
-}
+    <>
+      <Routes>
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/" element={<Home />}/>
+        <Route path="/login" element={<Login />}/>
+      </Routes>
+    </>
+  );
+};
 
-export default App
+export default App;
